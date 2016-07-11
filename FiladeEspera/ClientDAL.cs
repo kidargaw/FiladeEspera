@@ -38,7 +38,10 @@ namespace FiladeEspera
 
         }
 
-
+        /// <summary>
+        /// Function that create xml file and add clinet data
+        /// </summary>
+        /// <param name="client">Object Client</param>
         private static void WriteQueueXml(Client client)
         {
 
@@ -65,7 +68,10 @@ namespace FiladeEspera
 
         }
 
-
+        /// <summary>
+        /// Function that append records to xml file
+        /// </summary>
+        /// <param name="client">Object Client</param>
         private static void WriteQueueToAppendXml(Client client)
         {
 
@@ -84,18 +90,6 @@ namespace FiladeEspera
 
 
 
-
-
-
-        public static List<string> GetBooksExtension(string titleSearch)
-        {
-            XDocument xdoc = XDocument.Load(filePath);
-            var query = xdoc.Descendants("Type").
-            Where(t => t.Value.ToLower().Contains(titleSearch.ToLower())).
-            Select(t => t.Value);
-
-            return query.ToList<string>();
-        }
 
 
 
