@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +11,12 @@ namespace FiladeEspera
     {
         private static string filePath = AppDomain.CurrentDomain.BaseDirectory + "\\client.xml";
 
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="client"></param>
         public static void WriteXml(Client client)
         {
             try
@@ -79,7 +84,7 @@ namespace FiladeEspera
 
 
 
-       
+
 
 
         public static List<string> GetBooksExtension(string titleSearch)
@@ -93,8 +98,11 @@ namespace FiladeEspera
         }
 
 
- 
 
+        /// <summary>
+        /// Function that list all client 
+        /// </summary>
+        /// <returns>return list of client</returns>
         public static List<Client> GetAllClient()
         {
             List<Client> listClient = new List<Client>();
