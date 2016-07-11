@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueSystem", "FiladeEspera\QueueSystem.csproj", "{D325A370-7B22-4DBB-A104-C11D01884788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestQueueSystem", "UnitTestProjectFila\UnitTestQueueSystem.csproj", "{50D29D5B-3E44-4F02-9AC4-6C7AEA619D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{4D9A05A3-524B-43CA-BF6C-202DB9D5247A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Pictures\ICON 2\graph.png = ..\..\..\..\Pictures\ICON 2\graph.png
+		video.html = video.html
+		..\..\..\..\Pictures\ICON 2\video1.mp4 = ..\..\..\..\Pictures\ICON 2\video1.mp4
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QueueSystem", "QueueSystem", "{596B5A92-4E57-4D0E-AA00-2C67160205A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D325A370-7B22-4DBB-A104-C11D01884788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D325A370-7B22-4DBB-A104-C11D01884788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D325A370-7B22-4DBB-A104-C11D01884788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D325A370-7B22-4DBB-A104-C11D01884788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D29D5B-3E44-4F02-9AC4-6C7AEA619D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D29D5B-3E44-4F02-9AC4-6C7AEA619D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D29D5B-3E44-4F02-9AC4-6C7AEA619D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D29D5B-3E44-4F02-9AC4-6C7AEA619D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D325A370-7B22-4DBB-A104-C11D01884788} = {596B5A92-4E57-4D0E-AA00-2C67160205A5}
+		{50D29D5B-3E44-4F02-9AC4-6C7AEA619D7B} = {596B5A92-4E57-4D0E-AA00-2C67160205A5}
+		{4D9A05A3-524B-43CA-BF6C-202DB9D5247A} = {596B5A92-4E57-4D0E-AA00-2C67160205A5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
